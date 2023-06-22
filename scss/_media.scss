@@ -1,0 +1,22 @@
+@media (max-width: 980px) {
+   .wallets__down-box {
+      justify-content: center;
+      flex-wrap: wrap;
+   }
+   .sec-container {
+      box-sizing: content-box;
+      padding: 0 16px;
+   }
+}
+
+@media (max-width: 615px) {
+   .wallets__top-box-swiper .swiper-wrapper {
+      justify-content: flex-start;
+      align-items: center;
+   }
+   .wallets__top-box {
+      display: grid;
+      grid-template-columns: 1fr;
+      justify-content: center;
+   }
+}
